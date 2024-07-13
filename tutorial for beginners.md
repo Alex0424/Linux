@@ -1,3 +1,8 @@
+# Architectur of linux
+
+`Hardware/Karnel/Shell/your commands here e.g. cd .. or pwd`
+
+
 # Popular linux distributions (differences)
 
 - Popular Desktop Linux OS: `Ubuntu Linux` `Linux Mint` `Arch Linux` `Fedora` `Debian` `OpenSuse`

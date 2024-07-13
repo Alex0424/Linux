@@ -1,6 +1,6 @@
 # Architectur of linux
 
-`Hardware/Karnel/Shell/your commands here e.g. cd .. or pwd`
+`Hardware/Karnel/Shell/your-commands(cd ../pwd/ls)`
 
 
 # Popular linux distributions (differences)

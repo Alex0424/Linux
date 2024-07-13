@@ -4,5 +4,6 @@
 - Popular Server Linux OS: `Red Hat Enterprise Linux` `Ubuntu Server` `Centos` `SUSE Enterprise Linux`
 
 # RPB vs Debian
-- RPM based: `RHEL` `CentOS` `Oracle` `Linux`
-- Debian Based: `Ubuntu Server` `Kali Linux`
+
+- `.rpm` RPM based distros: `RHEL` `CentOS` `Oracle` `Linux`
+- `.deb` Debian Based distros: `Ubuntu Server` `Kali Linux`

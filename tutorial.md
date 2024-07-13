@@ -5,5 +5,5 @@
 
 # RPB vs Debian
 
-- `.rpm` RPM based distros: `RHEL` `CentOS` `Oracle` `Linux`
-- `.deb` Debian Based distros: `Ubuntu Server` `Kali Linux`
+- `.rpm` RPM based distros: `RHEL` `CentOS` `Oracle` `Linux` &rarr; E.g. installation: `rpm -ivh google-chrome.rpm`
+- `.deb` Debian Based distros: `Ubuntu Server` `Kali Linux` &rarr; E.g. installation: `dpkg -i google-chrome.deb`

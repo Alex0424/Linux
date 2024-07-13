@@ -12,11 +12,3 @@ $ cat                   #displaying file conten
 $ clear                 #clear screen
 $ sudo -i               #switch to root user
 ```
-
-`[steve@localhost ~]$`
-
-- username: `steve`
-- hostname: `localhost`
-- home-directory: `~`
-- normal user: `$`
-- system administrator(root): `#`

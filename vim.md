@@ -1,10 +1,12 @@
-# Vim text editor
+# Vim
+
+## How to edit or create a file with Vim text editor
 
 ```
 $ vim file.txt    #create a text file and open it in vim
 ```
 
-# Default commands:
+# Default commands (when your editing in vim)
 - Insert mode(edit): `i`
 - Insert mode & create new line under cursor(edit): `o`
 - Save file: `esc` then `:w` then `Entre`

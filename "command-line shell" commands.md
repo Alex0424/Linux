@@ -38,7 +38,7 @@ $ hostname name_example        #change hostname in command
 
 # Advanced commands:
 ```
-$ ls -lhatr                   #(long format), -h (human-readable sizes), -a (all files include hidden files), -t (sort by modification time, recently modified files first)
+$ ls -lhatr                   # -l (long format), -h (human-readable sizes), -a (all files include hidden files), -t (sort by modification time, recently modified files first), -r (reverse)
 $ cat /etc/os-release         #OS name & Version from CLI
 $ touch testfile{1..10}.txt   #create 10 files
 ```

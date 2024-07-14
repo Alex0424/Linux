@@ -31,6 +31,5 @@ $ rm -rf *                     #remove everything with force
 ```
 $ ls -lhat                    #(long format), -h (human-readable sizes), -a (all files include hidden files), -t (sort by modification time, recently modified files first)
 $ cat /etc/os-release         #OS name & Version from CLI
-$ touch testfile{1..10}.txt   #create file
-
+$ touch testfile{1..10}.txt   #create 10 files
 ```

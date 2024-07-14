@@ -1,7 +1,7 @@
 # Vim text editor
 
 ```
-$ vim file.txt    #create a text file and edit it in vim
+$ vim file.txt    #create a text file and open it in vim
 ```
 
 - Insert mode(edit): `i`

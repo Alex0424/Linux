@@ -25,4 +25,5 @@ $ vim file.txt    #create a text file and open it in vim
 - search: `/s`
 - undo: `u`
 - redo: `Ctrl` + `R`
+- replace all words `:%s/name/new_name/g` 
 - search and replace `:%s/name.main/name\.rg/g`

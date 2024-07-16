@@ -33,6 +33,7 @@ $ free -m                      #memmory utilization
 $ df -h                        #disk partition
 $ uptime                       #
 $ date                         #
+$ wc -l /etc/passwd            #count number of lines in file
 
 FILE:
 uptime > /tmp/sysinfo.txt            #write command to file
@@ -43,6 +44,7 @@ cat /dev/null > /tmp/sysinfo.txt     #clear file
 freeee -m 1>> /tmp/error.log         #will not do error to file
 freeee -m 2>> /tmp/error.log         #get error text to file
 freeee -m &>> /tmp/error.log         #get error text or command if works to file
+
 
 ```
 

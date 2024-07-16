@@ -2,7 +2,6 @@
 ```
 command list:
 $ whoami                       #display your username
-$ uptime                       #time status
 $ pwd                          #print working directory
 $ ls                           #list files
 $ cd /example/dir              #change to /example/dir directory
@@ -30,6 +29,21 @@ $ file file_example            #check file info bin or txt...
 $ vim /etc/host                #idk
 $ vim /etc/hostname            #change host name in vim
 $ hostname name_example        #change hostname in command
+$ free -m                      #memmory utilization
+$ df -h                        #disk partition
+$ uptime                       #
+$ date                         #
+
+FILE:
+uptime > /tmp/sysinfo.txt            #write command to file
+uptime >> /tmp/sysinfo.txt           #append command to file
+echo "your_text" > tmp/sysinfo.txt   #write text to file
+echo "your_text" >> tmp/sysinfo.txt  #append text to file
+cat /dev/null > /tmp/sysinfo.txt     #clear file
+freeee -m 1>> /tmp/error.log         #will not do error to file
+freeee -m 2>> /tmp/error.log         #get error text to file
+freeee -m &>> /tmp/error.log         #get error text or command if works to file
+
 ```
 
 # Get help with any command:

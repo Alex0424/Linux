@@ -14,7 +14,20 @@ tail -10 example.txt                 #last 10 lines
 tail -f var/log/messages             #monitor system log messages in real time
 cut -d: -f1 /etc/passwd              #cut separator
 awk -F':' '{print $1}' /etc/passwd   #awk separator
-sed -i 's/word/new_word/g' *.txt     #replace all words containing coronavirus to covid19 to all txt files
+sed -i 's/word/new_word/g' *.txt     #replace all words containing coronavirus to covid19 to all txt files             #
+find /etc -name 'host*'              #
+
+FIRST-COMMAND$ updatedb              #updates path
+SECOND-COMMAND$ locate host          #search for files that are named "host" 
+```
+
+## PIPES
+```
+ls | wc -l                                         #count number of files
+ls | grep host                                     #lists all that starts with host
+tail -20 /var/log/messages | grep -i vagrant       #
+free -m | grep Mem                                 #
+ls -l | head                                       #
 ```
 
 # Log files

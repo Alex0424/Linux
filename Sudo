@@ -1,0 +1,6 @@
+# Sudo
+
+´´´
+ls -l /etc/sudoers
+visudo
+´´´

@@ -1,28 +1,47 @@
 # Environment Variables
 
-## Operating System = Linux
-
-### Activate from CLI (Command Line Interface) 
+## Option 1: Activate from CLI (Command Line Interface) 
 
 ```shell
-team=ops
+export team=ops
 ```
+> The `export` keyword is required so that the variable is available to child processes, such as scripts or applications launched from your shell.
 
 Validate
 ```shell
 echo $team
 ```
 
-### Activate from `.env` file
+## Option 2: Activate Variables While Starting a Script
 
-```shell
-echo "team=ops" >> .env
+You can set a temporary environment variable just for the duration of a command
 ```
-```shell
-source ENV
+team=ops python3 main.py
 ```
 
-**Repository Security**: Ignore `.env` files for security purposes.
+## Option 3: Activate from `.env` file
+
+1. Create the `.env` file:
+
+```shell
+echo "export team=ops" >> .env
+```
+
+2. Load the environment variables:
+
+```shell
+source .env
+```
+
+> Using `export` in the `.env` file ensures the variable is available to child processes.
+
+
+## Repository Security
+
+To keep environment variables secure, ensure `.env` is ignored by version control:
+
 ```
 echo ".env" >> .gitignore
 ```
+
+This prevents accidentally committing sensitive information to your repository.

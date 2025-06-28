@@ -15,9 +15,12 @@ echo $team
 ## Option 2: Activate Variables While Starting a Script
 
 You can set a temporary environment variable just for the duration of a command
+
 ```
 team=ops python3 main.py
 ```
+
+Sets team=ops only for the main.py process and any child processes that main.py spawns.
 
 ## Option 3: Activate from `.env` file
 

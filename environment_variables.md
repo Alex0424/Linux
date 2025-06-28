@@ -48,3 +48,10 @@ echo ".env" >> .gitignore
 ```
 
 This prevents accidentally committing sensitive information to your repository.
+
+## Print environments activated for a specific PID
+
+```
+MY_PID=$$ \
+&& cat /proc/$MY_PID/environ
+```

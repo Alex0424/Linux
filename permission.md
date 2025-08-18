@@ -21,7 +21,20 @@ chmod 770 devopsdir/
 Ownership
 
 ```shell
+sudo usermod -a -G mygroup jenkins
 sudo groupadd mygroup
 sudo chown -R alex:mygroup /home/alex/test
-sudo chown -R jenkins:jenkins /home/alex/test
+```
+
+```
+sudo chown jenkins:jenkins /home/alex/test
+sudo chown -R jenkins:jenkins /home/alex # add group to all
+```
+
+Users
+
+```shell
+sudo useradd alex2
+sudo passwd alex2
+su alex2
 ```

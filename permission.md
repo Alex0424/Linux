@@ -17,3 +17,11 @@ chmod g+w /opt/devopsdir
 chmod u-x /opt/devopsdir
 chmod 770 devopsdir/
 ```
+
+Ownership
+
+```shell
+sudo groupadd mygroup
+sudo chown -R alex:mygroup /home/alex/test
+sudo chown -R jenkins:jenkins /home/alex/test
+```

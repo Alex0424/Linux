@@ -7,13 +7,13 @@ $ ls                           #list files
 $ cd /example/dir              #change to /example/dir directory
 $ cd ..                        #change to one step back directory
 $ cd                           #change to home directory
-$ mkdir dir                    #create directory
-$ mkdir -p /dir1/dir2/dir3     #create multiple directories
+$ mkdir ./dir                  #create directory
+$ mkdir -p /home/$USER/{a,b}/{x,y,z}     #create multiple directories
 $ ln -s /dir/fileA.txt fileB   #create a link
 $ unlink fileC                 #remove a link
 $ cat                          #displaying file conten & concatenation
 $ sudo -i                      #switch to root user
-$ touch testfile1.txt          #create file
+$ touch file{1..10}.txt        #create 10 files
 $ cp file.txt dir/             #move txt file to another directory
 $ cp /dir1/file.txt /dir1/dir2 # cp txt file to another directory using absolute path
 $ cp -r dirX dirY/             # copy a directory to another directory
@@ -35,7 +35,7 @@ $ uptime                       #
 $ date                         #
 $ wc -l /etc/passwd            #count number of lines in file
 $ cat /proc/cpuinfo            #cpuinfo
-
+$ tail -f err.log              #follow log file
 
 
 

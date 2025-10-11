@@ -1,4 +1,21 @@
-# filter
+## Grep
+
+```
+grep -orIinm1 --color=always --exclude-dir=".git" "replace_me" ./ | cut -c1-1000 && tput sgr0
+```
+```
+less -I +5 +/replace_me file.txt
+less -I +5 file.txt
+nvim +5 file.txt
+```
+
+## Find
+
+```
+find . -path "./.git" -prune -o -name "*.txt" -print
+```
+
+## Filter
 
 ```
 grep -i firewall example.txt         #looking for "firewall" pattern in example.txt wheter the letters are capital or not.

@@ -1,6 +1,7 @@
 # CRUD HTTP Methods with 🌀 CURL
 
 **Flags**
+
 - `-X` = Request Method
   - `-X GET` = Read data
   - `-X POST` = Create data
@@ -88,10 +89,6 @@ Verbose output (full request/response)
 ```shell
 curl -v https://example.com
 ```
-
----
----
----
 
 # 🌐 Download With WGET (easier download tool)
 

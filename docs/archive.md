@@ -1,6 +1,6 @@
-# 🗃️ Archive Commands
+# Archive Commands
 
-## 📦 TAR
+## 💾 TAR
 
 **Flags**
 
@@ -83,7 +83,7 @@ gunzip -c archive.txt.gz > archive.txt
 
 ✅ Also keeps the original file.
 
-## 🤐 ✄┈┈┈┈ ZIP
+## 🔗 ✄┈┈┈┈ ZIP
 
 **Flags**
 

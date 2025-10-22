@@ -1,3 +1,5 @@
+# Filter
+
 ## Grep
 
 ```
@@ -15,7 +17,9 @@ nvim +5 file.txt
 find . -path "./.git" -prune -o -name "*.txt" -print
 ```
 
-## Filter
+## Extra Commands
+
+### Filter
 
 ```
 grep -i firewall example.txt         #looking for "firewall" pattern in example.txt wheter the letters are capital or not.
@@ -38,7 +42,8 @@ FIRST-COMMAND$ updatedb              #updates path
 SECOND-COMMAND$ locate host          #search for files that are named "host" 
 ```
 
-## PIPES
+### PIPES
+
 ```
 ls | wc -l                                         #count number of files
 ls | grep host                                     #lists all that starts with host
@@ -46,7 +51,3 @@ tail -20 /var/log/messages | grep -i vagrant       #
 free -m | grep Mem                                 #
 ls -l | head                                       #
 ```
-
-# Log files
-  
-log files are located at /var/log

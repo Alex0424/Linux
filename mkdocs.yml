@@ -1,0 +1,33 @@
+site_name: Linux Documentation
+theme:
+  name: material
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+nav:
+  - Info: index.md
+  - Archive: 'archive.md'
+  - Commands: 'commands.md'
+  - Crontab: 'crontab.md'
+  - HTTP CRUD: 'HTTP_CRUD.md'
+  - Env Var: 'env_var.md'
+  - Filter: 'filter.md'
+  - Path: 'path.md'
+  - Permission: 'permission.md'
+  - Root_direcries: 'root_directories.md'
+  - Services: 'services.md'
+  - User: 'user.md'
+  - Vim: 'vim.md'

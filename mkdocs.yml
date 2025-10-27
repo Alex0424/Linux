@@ -27,7 +27,7 @@ nav:
   - Filter: 'filter.md'
   - Path: 'path.md'
   - Permission: 'permission.md'
-  - Root_direcries: 'root_directories.md'
+  - File System: 'file_system.md'
   - Services: 'services.md'
   - User: 'user.md'
   - Vim: 'vim.md'

@@ -1,29 +1,29 @@
 # Vim
 
-## How to edit or create a file with Vim text editor
+## How to edit or create a file with the Vim text editor
 
 ```
-$ vim file.txt    #create a text file and open it in vim
+$ vim file.txt    # create a text file and open it in Vim
 ```
 
-# Default commands (when your editing in vim)
-- Insert mode(edit): `i`
-- Insert mode & create new line under cursor(edit): `o`
-- Save file: `esc` then `:w` then `Entre`
-- Quit file: `esc` then `:q` then `Entre`
-- Quit file with force: `esc` then `:q!` then `Entre`
-- Save & Quit file: `esc` then `:wq` then `Entre` OR `esc` then `:x` then `Entre`
-- Set numbers: `esc` then `:se num`
-- Go to last line: `Shift` + `G`
-- Go to first line: `gg`
-- copy line: `yy` OR `3` * `yy` to copy 3 lines
-- copy multiple lines: `Shift` + `V` then use `j` to move down `k` to move up
-- copy lines 10 to 20 do: `:10,20y`
-- paste line above: `Shift` + `P`
-- paste line under: `p`
-- cut line: `dd`
-- search: `/s`
-- undo: `u`
-- redo: `Ctrl` + `R`
-- replace all words `:%s/name/new_name/g` 
-- search and replace `:%s/name.main/name\.rg/g`
+# Common commands (while editing in Vim)
+- Enter insert mode (edit): `i`
+- Enter insert mode and create a new line below the cursor: `o`
+- Save file: `Esc` then `:w` then `Enter`
+- Quit file: `Esc` then `:q` then `Enter`
+- Quit file without saving: `Esc` then `:q!` then `Enter`
+- Save and quit: `Esc` then `:wq` then `Enter` OR `Esc` then `:x` then `Enter`
+- Show line numbers: `Esc` then `:set number` (or `:se nu`)
+- Go to the last line: `Shift` + `G`
+- Go to the first line: `gg`
+- Copy a line: `yy` (or `3yy` to copy 3 lines)
+- Select multiple lines (visual line mode): `Shift` + `V` then use `j`/`k` to move down/up
+- Copy lines 10 to 20: `:10,20y`
+- Paste line above: `Shift` + `P`
+- Paste line below: `p`
+- Cut (delete) a line: `dd`
+- Search for a pattern: `/pattern` then `Enter`
+- Undo: `u`
+- Redo: `Ctrl` + `R`
+- Replace all occurrences of a word: `:%s/name/new_name/g`
+- Replace a literal dot in a pattern (example: replace `name.main` with `name.rg`): `:%s/name\.main/name\.rg/g`

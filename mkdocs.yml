@@ -31,3 +31,4 @@ nav:
   - Services: 'services.md'
   - User: 'user.md'
   - Vim: 'vim.md'
+  - GUI: 'GUI.md'

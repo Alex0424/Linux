@@ -17,6 +17,10 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 
+plugins:
+  - search
+  - mermaid2
+
 nav:
   - Info: index.md
   - Archive: 'archive.md'
@@ -32,3 +36,6 @@ nav:
   - User: 'user.md'
   - Vim: 'vim.md'
   - GUI: 'GUI.md'
+  - Distros: distros.md
+  - Boot: 'boot.md'
+  - Kernel: 'kernel.md'

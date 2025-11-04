@@ -10,12 +10,7 @@ This page is built with MkDocs Material
 ### Host Locally
 
 1. Install dependencies (recommended inside a venv)
-   ```bash
-   python3 -m venv .venv
-   . .venv/bin/activate
-   pip install mkdocs mkdocs-material
-   ```
-   Or if you already have a requirements file:
+   requirements file:
    ```bash
    pip install -r requirements.txt
    ```

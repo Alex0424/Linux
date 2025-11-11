@@ -1,6 +1,6 @@
 # Linux
 
-[Linux Page](https://alex0424.github.io/Linux/)
+[Linux Page](https://docs.alexanderlindholm.net/)
 
 
 ## INFO for Developers

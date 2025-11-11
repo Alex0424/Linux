@@ -12,7 +12,7 @@ This page is built with MkDocs Material
 1. Install dependencies (recommended inside a venv)
    requirements file:
    ```bash
-   pip install -r requirements.txt
+   python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
    ```
 
 2. Serve the site for live preview (bind to all interfaces for dev containers):

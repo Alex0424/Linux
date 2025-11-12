@@ -23,6 +23,7 @@ plugins:
 
 nav:
   - INFO: index.md
+
   - Linux:
     - Archive: 'linux/archive.md'
     - Commands: 'linux/commands.md'
@@ -40,5 +41,43 @@ nav:
     - Distros: 'linux/distros.md'
     - Boot: 'linux/boot.md'
     - Kernel: 'linux/kernel.md'
+
   - Networking:
     - OSI: 'networking/OSI.md'
+
+  - Kubernetes:
+    - Getting Started:
+        - Info: kubernetes/info.md
+        - History: kubernetes/history.md
+        - Introduction: kubernetes/introduction.md
+    - Setup:
+        - Setup Kubectl: kubernetes/setup_kubectl.md
+        - Setup Minikube: kubernetes/setup_minikube.md
+        - Setup Kops: kubernetes/setup_kops.md
+    - Concepts:
+        - Kubernetes architecture diagram: kubernetes/kubernetes_infrastructure_diagram.md
+        - Commands & Arguments: kubernetes/commands_arguments.md
+        - Objects: kubernetes/objects.md
+        - Namespace: kubernetes/namespaces.md
+        - Kube Config: kubernetes/kube_config.md
+        - Jobs and Cron Jobs: kubernetes/jobs_cron_jobs.md
+        - DaemonSet: kubernetes/daemonset.md
+        - Taints and Tolerations: kubernetes/taints_tolerations.md
+        - Limits: kubernetes/limits.md
+    - Workloads:
+        - ReplicaSet: kubernetes/replicaset.md
+        - Deployment: kubernetes/deployment.md
+        - Service: kubernetes/service.md
+        - Volume: kubernetes/volumes.md
+        - Config Map: kubernetes/config_map.md
+        - Secrets: kubernetes/secrets.md
+        - ingress: kubernetes/ingress.md
+    - Helm:
+        - Introduction: kubernetes/helm_introduction.md
+        - Hands On: kubernetes/helm_hands_on.md
+        - Helm with AI: kubernetes/helm_with_ai.md
+    - EKS: kubernetes/eks_introduction.md
+    - Logging:
+        - Different Logging: kubernetes/different_logging.md
+        - Lens: kubernetes/lens.md
+    - Cheat Sheet: kubernetes/cheatsheet.md

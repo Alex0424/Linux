@@ -1,4 +1,4 @@
-# Linux
+# DOCS
 
 This page provides centralized documentation of tech knowledge.
 

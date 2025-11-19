@@ -25,6 +25,7 @@ nav:
   - INFO: index.md
 
   - Linux:
+    - INFO: linux/index.md
     - Archive: 'linux/archive.md'
     - Commands: 'linux/commands.md'
     - Crontab: 'linux/crontab.md'
@@ -43,9 +44,11 @@ nav:
     - Kernel: 'linux/kernel.md'
 
   - Networking:
+    - INFO: networking/index.md
     - OSI: 'networking/OSI.md'
 
   - Kubernetes:
+    - INFO: kubernetes/index.md
     - Getting Started:
         - Info: kubernetes/info.md
         - History: kubernetes/history.md

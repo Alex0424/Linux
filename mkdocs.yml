@@ -45,24 +45,32 @@ markdown_extensions:
 nav:
   - INFO: index.md
 
-  - Linux:
-    - INFO: linux/index.md
-    - Archive: 'linux/archive.md'
-    - Commands: 'linux/commands.md'
-    - Crontab: 'linux/crontab.md'
-    - HTTP CRUD: 'linux/HTTP_CRUD.md'
-    - Env Var: 'linux/env_var.md'
-    - Filter: 'linux/filter.md'
-    - Path: 'linux/path.md'
-    - Permission: 'linux/permission.md'
-    - File System: 'linux/file_system.md'
-    - Services: 'linux/services.md'
-    - User: 'linux/user.md'
-    - Vim: 'linux/vim.md'
-    - GUI: 'linux/GUI.md'
-    - Distros: 'linux/distros.md'
-    - Boot: 'linux/boot.md'
-    - Kernel: 'linux/kernel.md'
+  - Agile:
+    - INFO: agile/index.md
+    - Fundamentals:
+      - Introduction: agile/fundamentals/introduction.md
+      - Agile Principles: agile/fundamentals/principles.md
+      - Scrum Framework: agile/fundamentals/scrum-framework.md
+      - Agile vs DevOps: agile/fundamentals/agile-vs-devops.md
+
+  - AI:
+    - INFO: ai/index.md
+    - Fundamentals:
+      - AI: ai/fundamentals/ai.md
+      - General AI: ai/fundamentals/general_ai.md
+      - Generative AI: ai/fundamentals/generative_ai.md
+      - Hallucinations: ai/fundamentals/hallucinations.md
+      - Machine Learning: ai/fundamentals/machine_learning.md
+      - Narrow AI: ai/fundamentals/narrow_ai.md
+      - Prompt: ai/fundamentals/prompt.md
+      - Super AI: ai/fundamentals/super_ai.md
+    - Copilot:
+      - CLI: ai/copilot/cli.md
+      - Process Flow: ai/copilot/process_flow.md 
+
+  - Cybersecurity:
+    - INFO: cybersecurity/index.md
+    - Threat Landscape: cybersecurity/threat-landscape.md
 
   - Git:
     - INFO: git/index.md
@@ -84,12 +92,6 @@ nav:
       - Checkout vs Cherrypick: 'git/concepts/checkout_vs_cherrypick.md'
       - Git config: 'git/concepts/git-config.md'
       - Merge vs Rebase: 'git/concepts/merge_vs_rebase.md'
-
-  - Networking:
-    - INFO: networking/index.md
-    - OSI: 'networking/OSI.md'
-    - IP: 'networking/ip.md'
-    - Linux Commands: 'networking/linux_commands.md'
 
   - Kubernetes:
     - INFO: kubernetes/index.md
@@ -128,25 +130,27 @@ nav:
         - Lens: kubernetes/lens.md
     - Cheat Sheet: kubernetes/cheatsheet.md
 
-  - Agile:
-    - INFO: agile/index.md
-    - Fundamentals:
-      - Introduction: agile/fundamentals/introduction.md
-      - Agile Principles: agile/fundamentals/principles.md
-      - Scrum Framework: agile/fundamentals/scrum-framework.md
-      - Agile vs DevOps: agile/fundamentals/agile-vs-devops.md
-  
-  - AI:
-    - INFO: ai/index.md
-    - Fundamentals:
-      - AI: ai/fundamentals/ai.md
-      - General AI: ai/fundamentals/general_ai.md
-      - Generative AI: ai/fundamentals/generative_ai.md
-      - Hallucinations: ai/fundamentals/hallucinations.md
-      - Machine Learning: ai/fundamentals/machine_learning.md
-      - Narrow AI: ai/fundamentals/narrow_ai.md
-      - Prompt: ai/fundamentals/prompt.md
-      - Super AI: ai/fundamentals/super_ai.md
-    - Copilot:
-      - CLI: ai/copilot/cli.md
-      - Process Flow: ai/copilot/process_flow.md 
+  - Linux:
+    - INFO: linux/index.md
+    - Archive: 'linux/archive.md'
+    - Commands: 'linux/commands.md'
+    - Crontab: 'linux/crontab.md'
+    - HTTP CRUD: 'linux/HTTP_CRUD.md'
+    - Env Var: 'linux/env_var.md'
+    - Filter: 'linux/filter.md'
+    - Path: 'linux/path.md'
+    - Permission: 'linux/permission.md'
+    - File System: 'linux/file_system.md'
+    - Services: 'linux/services.md'
+    - User: 'linux/user.md'
+    - Vim: 'linux/vim.md'
+    - GUI: 'linux/GUI.md'
+    - Distros: 'linux/distros.md'
+    - Boot: 'linux/boot.md'
+    - Kernel: 'linux/kernel.md'
+
+  - Networking:
+    - INFO: networking/index.md
+    - OSI: 'networking/OSI.md'
+    - IP: 'networking/ip.md'
+    - Linux Commands: 'networking/linux_commands.md'

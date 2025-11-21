@@ -119,7 +119,7 @@ svc describe pod | grep IP
 
 Output will show same ip as on `endpoints` config value.
 
-To access the TomApp Application use the IP adress of either master or any worker nodes
+To access the TomApp Application use the IP address of either master or any worker nodes
 ```
 curl 200.20.200.200:30001
 ```
@@ -167,7 +167,7 @@ spec:
   type: LoadBalancer
 ```
 
-To access the TomApp Application use the IP adress of either master or any worker nodes
+To access the TomApp Application use the IP address of either master or any worker nodes
 
 ```
 curl 200.20.200.200

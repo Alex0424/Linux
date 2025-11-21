@@ -4,7 +4,7 @@ A Secret is an object that contains a small amount of sensitive data such as a p
 
 # Base64 Encoding Method
 
-There is a way to encrypt a secret but thats outside the scope of this docs.
+There is a way to encrypt a secret but that's outside the scope of this docs.
 
 !!! info "Base64 Encoding Example"
 

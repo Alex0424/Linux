@@ -1,4 +1,4 @@
-# Setup Local Test Enviroment with Minikube
+# Setup Local Test Environment with Minikube
 
 ## 📋 System Requirements
 

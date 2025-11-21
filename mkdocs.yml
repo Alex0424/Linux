@@ -64,14 +64,36 @@ nav:
     - Boot: 'linux/boot.md'
     - Kernel: 'linux/kernel.md'
 
+  - Git:
+    - INFO: git/index.md
+    - Clone:
+      - HTTP: git/clone/http.md
+      - SSH: git/clone/ssh.md
+      - Swap HTTP <-> SSH: git/clone/swap_http_ssh.md
+    - Commands:
+      - Bisect: 'git/commands/bisect.md'
+      - Branch: 'git/commands/branch.md'
+      - Checkout: 'git/commands/checkout.md'
+      - Default Commands: 'git/commands/default_commands.md'
+      - Diff: 'git/commands/diff.md'
+      - Log: 'git/commands/log.md'
+      - Status ui: 'git/commands/status_ui.md'
+      - Remote Repository: 'git/commands/remote_repository.md'
+      - Stash: 'git/commands/stash.md'
+    - Concepts:
+      - Checkout vs Cherrypick: 'git/concepts/checkout_vs_cherrypick.md'
+      - Git config: 'git/concepts/git-config.md'
+      - Merge vs Rebase: 'git/concepts/merge_vs_rebase.md'
+
   - Networking:
     - INFO: networking/index.md
     - OSI: 'networking/OSI.md'
+    - IP: 'networking/ip.md'
+    - Linux Commands: 'networking/linux_commands.md'
 
   - Kubernetes:
     - INFO: kubernetes/index.md
     - Getting Started:
-        - Info: kubernetes/info.md
         - History: kubernetes/history.md
         - Introduction: kubernetes/introduction.md
     - Setup:
@@ -113,3 +135,18 @@ nav:
       - Agile Principles: agile/fundamentals/principles.md
       - Scrum Framework: agile/fundamentals/scrum-framework.md
       - Agile vs DevOps: agile/fundamentals/agile-vs-devops.md
+  
+  - AI:
+    - INFO: ai/index.md
+    - Fundamentals:
+      - AI: ai/fundamentals/ai.md
+      - General AI: ai/fundamentals/general_ai.md
+      - Generative AI: ai/fundamentals/generative_ai.md
+      - Hallucinations: ai/fundamentals/hallucinations.md
+      - Machine Learning: ai/fundamentals/machine_learning.md
+      - Narrow AI: ai/fundamentals/narrow_ai.md
+      - Prompt: ai/fundamentals/prompt.md
+      - Super AI: ai/fundamentals/super_ai.md
+    - Copilot:
+      - CLI: ai/copilot/cli.md
+      - Process Flow: ai/copilot/process_flow.md 

@@ -10,7 +10,7 @@
 ## ☁️ Launch EC2 Instance
 
 - Name: `kops`
-- AMI (Amazon Machine Image): `Ubuntu Server 24.04 LTS` (but its recomended to use 22.04 as its stable)
+- AMI (Amazon Machine Image): `Ubuntu Server 24.04 LTS` (but its recommended to use 22.04 as its stable)
 - Instance type: `t2.micro`
 - Key pair: `Name: 'kopskey'`, `Key pair type: 'RSA'`, `Private key file format: '.pem'`
 - Security group: `Name: 'kops-sg'`, `Inbound rules: SSH from My IP}`
@@ -81,7 +81,7 @@ kubectl version --client
 In the AWS Console or CLI:
 
 - Bucket type: `General purpose`
-- Bucket name: `kopsstate1877` <= This needs to be uniqe
+- Bucket name: `kopsstate1877` <= This needs to be unique
 
 ## 🌐 Create the DNS Zone with Amazon `Route 53`
 

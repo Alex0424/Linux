@@ -48,6 +48,18 @@ Transmission and reception of raw bitstreams over a physical medium.
 
 e.g.: network cable, power plug, wireless, pulses of light.
 
+## Table of OSI Layers
+
+| Layer | Name              | # | Info  |
+| ----- | ----------------- | ----- | ----- |
+| 7     | Application       | HTTP, SSH, DNS, IRC, FTP|       |
+| 6     | Presentation      | SSL, SSH, IMAP, FTP, MPEG, JPEG |       |
+| 5     | Session           | API, Socket, WinSock |       |
+| 4     | Transport         | TCP, UDP |       |
+| 3     | Network           | IP, ICMP, IPSec, IGMP |       |
+| 2     | Data Link         | Ethernet, PPP, Switch, Bridge |       |
+| 1     | Physical          | Coax, Fiber, Wireless, Hubs, Repeaters |       |
+
 ## Links
 
 [What is OSI (video)](https://youtu.be/Ilk7UXzV_Qc)

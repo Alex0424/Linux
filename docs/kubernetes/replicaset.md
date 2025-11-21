@@ -66,14 +66,14 @@ kubectl get pod
 
 scale replicas:
 ```bash
-# not recomended in production
+# not recommended in production
 kubectl scale --replicas=1 rs/frontend
 # frontend = replica name
 ```
 
 edit live config:
 ```bash
-# not recomended in production
+# not recommended in production
 kubectl edit rs frontend
 ```
 

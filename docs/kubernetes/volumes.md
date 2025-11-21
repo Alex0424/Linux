@@ -6,8 +6,8 @@
 - azureDisk
 - cephhfs
 - cinder
-- fc (fibre chanel)
-- flocker (depricated)
+- fc (fibre channel)
+- flocker (deprecated)
 - gcePersistentDisk (for Google Cloud)
 - glusterfs (RedHat)
 - iscsi
@@ -15,7 +15,7 @@
 - NFS
 - portworxVolume
 - vSphere VMDK
-- hostPath (not recomended for production)
+- hostPath (not recommended for production)
 
 ## hostPath configuration example
 

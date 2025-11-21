@@ -59,7 +59,7 @@ Extra namespaces example:
 - dev
 - prod
 
-## Change prefered namespace in kubeconfig file
+## Change preferred namespace in kubeconfig file
 
 ```
 kubectl config set-context --current --namespace=<insert-namespace-name-here>

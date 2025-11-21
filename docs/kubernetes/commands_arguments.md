@@ -67,7 +67,7 @@ spec:
 > **Note:**  
 > You can only use one `command` and `args` per container.  
 > To try both examples, comment/uncomment the relevant lines or create two containers in the pod.
-> 2 containers running is not recomended in production unless its side-container or container that will start another container.
+> 2 containers running is not recommended in production unless its side-container or container that will start another container.
 
 env:
 - name: MESSAGE

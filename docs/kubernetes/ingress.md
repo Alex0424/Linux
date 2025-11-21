@@ -213,7 +213,7 @@ kubectl delete ingress vpro-ingress
 
 ## Optional: Change app path to fix content rendering on the page
 
-The page is not rendering becouse the routing is happening internally not in the app
+The page is not rendering because the routing is happening internally not in the app
 
 ```shell
 vim vproingress.yaml

@@ -18,9 +18,9 @@ It accepts system calls to perform functions
 
 ## Kernel is monolithic
 
-- more built in to it compare to other kernels (Windows NT, MacOS)
+- more built in to it compared to other kernels (Windows NT, MacOS)
 
-- alot of included drivers
+- a lot of included drivers
   - GPU
   - peripherals (pen tablets)
   - don't get option to edit/remove features (unless you compile the kernel yourself)

@@ -1,11 +1,6 @@
-# Linux
+# Technology Documentation
 
-[Linux Page](https://docs.alexanderlindholm.net/)
-
-
-## INFO for Developers
-
-This page is built with MkDocs Material
+[View the page](https://docs.alexanderlindholm.net/)
 
 ### Host Locally
 

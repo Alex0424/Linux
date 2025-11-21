@@ -56,17 +56,21 @@ nav:
   - AI:
     - INFO: ai/index.md
     - Fundamentals:
-      - AI: ai/fundamentals/ai.md
+      - AI Models: ai/fundamentals/ai_models.md
+      - Neural Networks: ai/fundamentals/neural_networks.md
+      - Deep Learning: ai/fundamentals/deep_learning.md
       - General AI: ai/fundamentals/general_ai.md
       - Generative AI: ai/fundamentals/generative_ai.md
       - Hallucinations: ai/fundamentals/hallucinations.md
       - Machine Learning: ai/fundamentals/machine_learning.md
+      - Machine Learning Types: ai/fundamentals/machine_learning_types.md
       - Narrow AI: ai/fundamentals/narrow_ai.md
       - Prompt: ai/fundamentals/prompt.md
+      - RAG: ai/fundamentals/rag.md
       - Super AI: ai/fundamentals/super_ai.md
-    - Copilot:
-      - CLI: ai/copilot/cli.md
-      - Process Flow: ai/copilot/process_flow.md 
+    - Coding with AI:
+      - CLI: ai/coding_with_ai/cli.md
+      - Process Flow: ai/coding_with_ai/process_flow.md 
 
   - Cybersecurity:
     - INFO: cybersecurity/index.md
@@ -89,8 +93,9 @@ nav:
       - Remote Repository: 'git/commands/remote_repository.md'
       - Stash: 'git/commands/stash.md'
     - Concepts:
-      - Checkout vs Cherrypick: 'git/concepts/checkout_vs_cherrypick.md'
       - Git config: 'git/concepts/git-config.md'
+      - Patchset: 'git/concepts/patchset.md'
+      - Checkout vs Cherrypick: 'git/concepts/checkout_vs_cherrypick.md'
       - Merge vs Rebase: 'git/concepts/merge_vs_rebase.md'
 
   - Kubernetes:
